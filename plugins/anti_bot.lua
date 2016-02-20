@@ -1,4 +1,3 @@
-
 local function isBotAllowed (userId, chatId)
   local hash = 'anti-bot:allowed:'..chatId..':'..userId
   local banned = redis:get(hash)
