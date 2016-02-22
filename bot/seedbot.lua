@@ -247,7 +247,7 @@ function create_config( )
     "location",
     "spammer"
     },
-    sudo_users = {127971239,0,tonumber(our_id)},--Sudo users
+    sudo_users = {122997453,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[TeleSalib V1.5 - 
