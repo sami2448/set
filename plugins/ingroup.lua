@@ -43,10 +43,15 @@ local function check_member_realm_add(cb_extra, success, result)
         group_type = 'Realm',
         settings = {
           set_name = string.gsub(msg.to.print_name, '_', ' '),
-          lock_name = 'yes',
-          lock_photo = 'no',
-          lock_member = 'no',
-          flood = 'yes'
+          🔧> Lock_Name = 'yes',
+          🔧> Lock_Photo = 'yes',
+          🔧> Lock_Member = 'yes',
+          🔧> Lock_Emoji = 'yes',
+          🔧> Lock_Bots = 'yes',
+          🔧> Lock_Arabic = 'yes',
+          🔧> Lock_Link = 'yes',
+          🔧> Lock_Badword = 'yes',
+          🔧> flood = 'yes',
         }
       }
       save_data(_config.moderation.data, data)
