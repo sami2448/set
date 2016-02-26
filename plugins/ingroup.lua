@@ -105,7 +105,7 @@ local function check_member_modadd(cb_extra, success, result)
         group_type = 'Group',
         moderators = {},
         set_owner = member_id ,
-        ⚙>Group Settings: = {
+        settings = {
           set_name = string.gsub(msg.to.print_name, '_', ' '),
           lock_name = 'yes',
           lock_photo = 'no',
