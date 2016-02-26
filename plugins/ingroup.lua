@@ -43,14 +43,14 @@ local function check_member_realm_add(cb_extra, success, result)
         group_type = 'Realm',
         settings = {
           set_name = string.gsub(msg.to.print_name, '_', ' '),
-          🔧> Lock_Name = 'yes',
-          🔧> Lock_Photo = 'yes',
-          🔧> Lock_Member = 'yes',
-          🔧> Lock_Emoji = 'yes',
-          🔧> Lock_Bots = 'yes',
-          🔧> Lock_Arabic = 'yes',
-          🔧> Lock_Link = 'yes',
-          🔧> Lock_Badword = 'yes',
+          🔧>_Lock_Name = 'yes',
+          🔧>_Lock_Photo = 'yes',
+          🔧>_Lock_Member = 'yes',
+          🔧>_Lock_Emoji = 'yes',
+          🔧>_Lock_Bots = 'yes',
+          🔧>_Lock_Arabic = 'yes',
+          🔧>_Lock_Link = 'yes',
+          🔧>_Lock_Badword = 'yes',
           🔧> flood = 'yes',
         }
       }
