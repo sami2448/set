@@ -51,6 +51,7 @@ local function check_member_realm_add(cb_extra, success, result)
           🔧>_Lock_Sticker = 'yes',
           🔧>_Lock_Arabic = 'yes',
           🔧>_Lock_Link = 'yes',
+          🔧>_Lock_emoji = 'yes',
           🔧>_Lock_Badword = 'yes',
           🔧> flood = 'yes',
         }
