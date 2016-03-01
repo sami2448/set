@@ -4,8 +4,8 @@ return [[ samsamsamsamsamsamsamsamsamsamsamsamsamsamsamsamsam]],
 end if
 end
 returns {
-useage = "to spam somewhere"
-description = "my practice"
+useage = "to spam somewhere",
+description = "my practice",
 patterns = {
 "^[!/](spam) (.*)$"
 },
